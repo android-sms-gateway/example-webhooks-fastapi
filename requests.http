@@ -1,0 +1,19 @@
+@baseUrl=https://localhost:8443
+
+###
+POST {{baseUrl}}/webhook/sms-received HTTP/1.1
+Content-Type: application/json
+
+{
+    "deviceId": "0000000019c2d7bf00000195d216644c",
+    "event": "sms:received",
+    "id": "JorVFMxcS2p4bHCfOGxT9",
+    "payload": {
+        "message": "Android is always a sweet treat!",
+        "receivedAt": "2025-04-15T11:54:28.000+07:00",
+        "messageId": "7bb6b5e7",
+        "phoneNumber": "6505551212",
+        "simNumber": 1
+    },
+    "webhookId": "kDMXGXUeNs_-d2HZ3unHT"
+}
