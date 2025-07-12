@@ -48,7 +48,6 @@ class WebhookPayload(BaseModel):
 
 
 settings = Settings()
-print(settings.model_dump())
 
 
 async def register_webhook(app: FastAPI):
